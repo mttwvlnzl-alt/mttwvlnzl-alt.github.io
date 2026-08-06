@@ -520,68 +520,8 @@
                 display: none;
             }
         }
-      /* Floating Breezing Elements */
-.breeze-element {
-  position: absolute;
-  pointer-events: none; /* Prevents decorative images from blocking clicks */
-  z-index: 1;
-  opacity: 0.88;
-  animation: gentleBreeze ease-in-out infinite alternate;
-}
 
-/* Breezing wind floating motion */
-@keyframes gentleBreeze {
-  0% {
-    transform: translateY(0px) translateX(0px) rotate(0deg);
-  }
-  33% {
-    transform: translateY(-12px) translateX(8px) rotate(2deg);
-  }
-  66% {
-    transform: translateY(-6px) translateX(-6px) rotate(-2deg);
-  }
-  100% {
-    transform: translateY(-18px) translateX(10px) rotate(3deg);
-  }
-}
-
-/* Individual positions and staggered timings across the page */
-.deco-cloud {
-  top: 12%;
-  left: 2%;
-  width: 140px;
-  animation-duration: 7s;
-}
-
-.deco-stars {
-  top: 8%;
-  right: 4%;
-  width: 110px;
-  animation-duration: 5.5s;
-  animation-delay: -2s;
-}
-
-.deco-vine {
-  top: 42%;
-  right: 2%;
-  width: 90px;
-  animation-duration: 8s;
-  animation-delay: -1s;
-}
-
-.deco-clover {
-  top: 72%;
-  left: 3%;
-  width: 100px;
-  animation-duration: 6.5s;
-  animation-delay: -3s;
-}
     </style>
-  <!-- Floating Decorative Wind Elements -->
-<img src="1000009993.jpg" class="breeze-element deco-cloud" alt="Decorative Cloud">
-<img src="1000009990.jpg" class="breeze-element deco-stars" alt="Decorative Stars">
-<img src="1000009992.jpg" class="breeze-element deco-vine" alt="Decorative Vine">
-<img src="1000009991.jpg" class="breeze-element deco-clover" alt="Decorative Clover">
 </head>
 <body>
 
